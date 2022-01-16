@@ -20,10 +20,6 @@ main:
     mov rsi, rax
     call printf
 
-    mov rdi, format
-    mov rsi, 1
-    call printf
-
     mov rax, 60
     xor rdi, rdi
     syscall
